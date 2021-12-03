@@ -27,7 +27,7 @@ This linear model predicts mpg of MechaCar prototypes effectively with an R-squa
 
 The current manufacturing data suggests that the design specification is met for all manufacturing lots in total. In Figure 3, we see that the total variance is approximately 62.29 PSI.
 
-Each lot individually tells a different story. Lot 1 and Lot 2 are in compliance with a variance of 0.98 and 7.47 PSI respectively, but Lot 3 is out of scope with a variance of 170.29 PSI (Figure 4).  
+Each lot individually tells a different story. Lots 1 and 2 are in compliance with a variance of 0.98 and 7.47 PSI respectively, but Lot 3 is out of scope with a variance of 170.29 PSI (Figure 4).  
 
 #### Figure 3: Suspension Coil PSI Total Summary
 ![](Images/d2_total_summary.png)
@@ -39,8 +39,27 @@ Each lot individually tells a different story. Lot 1 and Lot 2 are in compliance
 
 ## T-Tests on Suspension Coils
 
-#### Figure 5
+A t-test was conducted on all lots, and on each lot individually. 
+
+#### Figure 5: T-Test (All Lots)
 ![](Images/d3_t.test_all_lots.png)
+
+t = -1.8931, indicating a negative relationship.
+
+#### Figure 6: T-Test (Lot 1)
+![](Images/d3_lot1_test.png)
+
+t = 0, indicating no relationship.
+
+#### Figure 7: T-Test (Lot 2)
+![](Images/d3_lot2_test.png)
+
+t = 0.51745, indicating a positive relationship.
+
+#### Figure 8: T-Test (Lot 3)
+![](Images/d3_lot3_test.png)
+
+t = -2.0916, indicating a negative relationship.
 
 ## Study Design: MechaCar vs Competition
 
