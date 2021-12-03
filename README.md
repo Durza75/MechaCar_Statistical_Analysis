@@ -2,24 +2,24 @@
 
 ## Linear Regression to Predict MPG
 
-#### Figure 1: Total Summary
-![](Images/d1_lm_function.png)  
-
-
-#### Figure 2: Lot Summary
-![](Images/d1_summary.png)
-
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?  
 
 Vehicle length and ground clearance both provided a non-random amount of variance to the mpg values. As seen in Figure 1, these two variables were the only ones that were not statistically insignificant.
+
+#### Figure 1: Total Summary
+![](Images/d1_lm_function.png)  
 
 - Is the slope of the linear model considered to be zero? Why or why not?  
 
 The slope of the linear model is not considered to be zero. In Figure 2, we see "Multiple R-squared: 0.7149." This means that about 71% of the variability of the dependent variable (mpg predictions) is explained using this linear model. For the slope of the model to be considered zero, the value would have to be less than 5%.
 
+#### Figure 2: Lot Summary
+![](Images/d1_summary.png)
+
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?  
 
 This linear model predicts mpg of MechaCar prototypes effectively with an R-squared value of 71%.
+
 
 
 ## Summary Statistics on Suspension Coils 
