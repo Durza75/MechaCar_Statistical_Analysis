@@ -25,10 +25,14 @@ This linear model predicts mpg of MechaCar prototypes effectively with an R-squa
 ## Summary Statistics on Suspension Coils 
 - The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?  
 
-#### Figure 3
+The current manufacturing data suggests that the design specification is met for all manufacturing lots in total. In Figure 3, we see that the total variance is approximately 62.29 PSI.
+
+Each lot individually tells a different story. Lot 1 and Lot 2 are in compliance with a variance of 0.98 and 7.47 PSI respectively, but Lot 3 is out of scope with a variance of 170.29 PSI (Figure 4).  
+
+#### Figure 3: Suspension Coil PSI Total Summary
 ![](Images/d2_total_summary.png)
 
-#### Figure 4
+#### Figure 4: Suspension Coil PSI by Lot
 ![](Images/d2_lot_summary.png)
 
 
@@ -40,5 +44,11 @@ This linear model predicts mpg of MechaCar prototypes effectively with an R-squa
 
 ## Study Design: MechaCar vs Competition
 
-#### Figure 6
-![](Images/d2_total_smmary.png)
+In addition to mpg, another metric of interest to study is that of MechaCar ground clearance height and its relationship with maintenance costs, compared to that of the competition.  A possible null and alternate hypothesis combination is as follows:
+
+- Null Hypothesis: Ground clearance height has no effect on annual maintenance costs.
+- Alternate Hypothesis: Ground clearance height has an effect on annual maintenance costs.
+
+A one-sample t-test would best be used in this situation, since we would be trying to determine whether there is a statistical difference between an observed sample mean and its presumed population mean.  
+
+In order to conduct this statistical test, we would need to collect data on the total annual maintenance costs of MechaCars as well as by Lot.
