@@ -61,6 +61,8 @@ t = 0.51745, indicating a positive relationship.
 
 t = -2.0916, indicating a negative relationship.
 
+Overall, the t-test indicates that a relationship does exist between the mpg and the variable indicated, with the exception of Lot 1. Lot 1 shows that no relationship exists.
+
 ## Study Design: MechaCar vs Competition
 
 In addition to mpg, another metric of interest to study is that of MechaCar ground clearance height and its relationship with maintenance costs, compared to that of the competition.  A possible null and alternate hypothesis combination is as follows:
