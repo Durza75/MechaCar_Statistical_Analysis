@@ -11,14 +11,14 @@ Vehicle length and ground clearance both provided a non-random amount of varianc
 
 - Is the slope of the linear model considered to be zero? Why or why not?  
 
-The slope of the linear model is not considered to be zero. In Figure 2, we see "Multiple R-squared: 0.7149." This means that about 71% of the variability of the dependent variable (mpg predictions) is explained using this linear model. For the slope of the model to be considered zero, the value would have to be less than 5%.
+The slope of the linear model is not considered to be zero. In Figure 2, we see under the "Estimate" column that vehicle_weight and spoiler_angle are approximately zero, but vehicle_length, ground_clearance, and AWD are  not zero. When one adds up these five variables, the result will not be equal to zero.
 
 #### Figure 2: Lot Summary
 ![](Images/d1_summary.png)
 
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?  
 
-This linear model predicts mpg of MechaCar prototypes effectively with an R-squared value of 71%.
+This linear model does not predict the mpg of MechaCar protoytpes effectively. In Figure 2, we see that Residual standard error is equal to 8.774. This is saying that the mpg for the prototypes has an error +/- 8.78 of gallons. This would be unacceptable. An acceptable standard error would be of 3 gallon or less. 
 
 
 
